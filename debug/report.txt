@@ -1,0 +1,45 @@
+Datum: 2026-11-08T13:11:50.769105
+
+=== main: https://www.abfall-lro.de/de/abfuhrtermine/ -> 200 text/html; charset=utf-8 (final https://www.abfall-lro.de/de/abfuhrtermine/), 96022 bytes
+  FORM 0: {'id': 'frmSearch', 'method': 'get', 'action': '/de/search/'}
+    {'tag': 'input', 'type': 'text', 'class': 'searchTerm', 'id': 'searchTermGlobal', 'placeholder': 'Suche', 'data-project-search': '/de', 'name': 'searchTerm', 'value': ''}
+    {'tag': 'input', 'type': 'hidden', 'name': 'wcsrf', 'value': 'PJvOazPRJLtOaRfzcUVTPiwyjiOUgrexHkndsoLLYBNpcEy69ZFrbjeCtuPexCjXXUJRtsLLlzbJfvxtbnEvDQutlDBJmqEA17'}
+  FORM 1: {'action': '/default-wGlobal/wGlobal/abfuhrtermine/ical.php'}
+    {'tag': 'input', 'name': 'letters', 'type': 'hidden'}
+    {'tag': 'input', 'name': 'year', 'type': 'hidden'}
+    {'tag': 'input', 'name': 'place', 'type': 'hidden'}
+    select name=black id=None (3 Optionen) erste: [{'value': '', 'text': ''}, {'value': '4w', 'text': 'Alle 4 Wochen'}, {'value': '2w', 'text': 'Alle 2 Wochen'}] Tessin: []
+    {'tag': 'input', 'class': 'modal-checkbox', 'name': 'bsaison', 'value': 'y', 'type': 'checkbox'}
+    select name=green id=None (3 Optionen) erste: [{'value': '', 'text': ''}, {'value': '4w', 'text': 'Alle 4 Wochen'}, {'value': '2w', 'text': 'Alle 2 Wochen'}] Tessin: []
+    {'tag': 'input', 'class': 'modal-checkbox', 'name': 'gsaison', 'value': 'y', 'type': 'checkbox'}
+    {'tag': 'input', 'class': 'modal-checkbox', 'name': 'yellow', 'value': 'y', 'checked': '', 'type': 'checkbox'}
+    {'tag': 'input', 'class': 'modal-checkbox', 'name': 'blue', 'value': 'y', 'checked': '', 'type': 'checkbox'}
+    select name=alarm id=ical-alarm (16 Optionen) erste: [{'value': '', 'text': 'keine'}, {'value': '18', 'text': 'Vortag 6 Uhr'}, {'value': '17', 'text': 'Vortag 7 Uhr'}, {'value': '16', 'text': 'Vortag 8 Uhr'}, {'value': '15', 'text': 'Vortag 9 Uhr'}, {'value': '14', 'text': 'Vortag 10 Uhr'}] Tessin: []
+    {'tag': 'input', 'value': 'Download', 'type': 'submit'}
+    {'tag': 'input', 'class': 'close', 'value': 'Schließen', 'type': 'button'}
+  LINK 'Groß Tessin' -> /default-wAssets/docs/abfuhrtermine/2026/pdf/G_G_Q_G.pdf
+  LINK 'Tessin' -> /default-wAssets/docs/abfuhrtermine/2026/pdf/Q_P_C_C_RW_BW.pdf
+  ERWAEHNUNG: (iCal)</a></p></div></div>
+  ERWAEHNUNG: >×</span><h3>Kalender-Download
+  ERWAEHNUNG: /default-wGlobal/wGlobal/abfuhrtermine/ical.php
+  SCRIPT: /default-wGlobal/wGlobal/layout/scripts/optimized/2c4878366641cea210ac83f0ac5b62e2.js?260310145814
+
+=== index-2025: https://www.abfall-lro.de/de/abfuhrtermine/index-2025.php -> 404 text/html; charset=UTF-8 (final https://www.abfall-lro.de/de/abfuhrtermine/index-2025.php), 16 bytes
+
+=== index-2026: https://www.abfall-lro.de/de/abfuhrtermine/index-2026.php -> 404 text/html; charset=UTF-8 (final https://www.abfall-lro.de/de/abfuhrtermine/index-2026.php), 16 bytes
+
+=== index-2027: https://www.abfall-lro.de/de/abfuhrtermine/index-2027.php -> 404 text/html; charset=UTF-8 (final https://www.abfall-lro.de/de/abfuhrtermine/index-2027.php), 16 bytes
+
+Gefundene Codes fuer Tessin: ['G_G_Q_G', 'Q_P_C_C_RW_BW']
+PDF 2026 G_G_Q_G: 200 application/pdf 138800 bytes
+PDF 2026 Q_P_C_C_RW_BW: 200 application/pdf 147990 bytes
+PDF 2027 G_G_Q_G: 404 text/html; charset=UTF-8 18 bytes
+PDF 2027 Q_P_C_C_RW_BW: 404 text/html; charset=UTF-8 18 bytes
+ICAL 4w 2026 G_G_Q_G: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2026&green=&yellow=y&blue=y&black=4w
+ICAL 4w+erinnerung 2026 G_G_Q_G: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2026&green=&yellow=y&blue=y&black=4w&reminder=18
+ICAL 4w 2027 G_G_Q_G: 200 text/html; charset=UTF-8 20 bytes, 0 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2027&green=&yellow=y&blue=y&black=4w
+ICAL 4w+erinnerung 2027 G_G_Q_G: 200 text/html; charset=UTF-8 20 bytes, 0 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2027&green=&yellow=y&blue=y&black=4w&reminder=18
+ICAL 4w 2026 Q_P_C_C_RW_BW: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2026&green=&yellow=y&blue=y&black=4w
+ICAL 4w+erinnerung 2026 Q_P_C_C_RW_BW: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2026&green=&yellow=y&blue=y&black=4w&reminder=18
+ICAL 4w 2027 Q_P_C_C_RW_BW: 200 text/html; charset=UTF-8 20 bytes, 0 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2027&green=&yellow=y&blue=y&black=4w
+ICAL 4w+erinnerung 2027 Q_P_C_C_RW_BW: 200 text/html; charset=UTF-8 20 bytes, 0 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2027&green=&yellow=y&blue=y&black=4w&reminder=18

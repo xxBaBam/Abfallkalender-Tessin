@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//umzug//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kreuzfahrtschiffe Warnemünde (umgezogen)
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VEVENT
+UID:umzug-20261108-60264588@abfallkalender-tessin
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+RRULE:FREQ=DAILY;COUNT=30
+SUMMARY:📢 Kalender umgezogen – bitte neu abonnieren
+DESCRIPTION:Dieser Kalender wird hier nicht mehr aktualisiert. Bitte dieses Abo löschen und neu abonnieren:\nhttps://xxbabam.github.io/Kreuzfahrtschiffe-Warnemuende/\n\nAbo-Adresse: https://xxbabam.github.io/Kreuzfahrtschiffe-Warnemuende/kreuzfahrt.ics
+URL:https://xxbabam.github.io/Kreuzfahrtschiffe-Warnemuende/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

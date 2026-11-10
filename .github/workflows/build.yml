@@ -1,0 +1,58 @@
+name: Kalender aktualisieren
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"   # jeden Montag ca. 05:17 Uhr (Winterzeit) / 06:17 Uhr (Sommerzeit)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["config.json", "scripts/build.py", ".github/workflows/build.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Abfalltermine abrufen und ICS bauen
+        id: build
+        run: |
+          set +e
+          python scripts/build.py
+          echo "rc=$?" >> "$GITHUB_OUTPUT"
+      - name: Nur bei Aenderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add docs state.json
+          if git diff --cached --quiet; then
+            echo "Keine Aenderungen."
+          else
+            git commit -m "Kalender aktualisiert"
+            git push
+          fi
+      - name: Pruefen, ob die Kalender online erreichbar sind
+        continue-on-error: true
+        run: |
+          base="https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}"
+          ok=0
+          for f in abfall.ics; do
+            code=$(curl -s -o /tmp/online.ics -w "%{http_code}" "$base/$f")
+            echo "$base/$f -> HTTP $code, $(grep -c BEGIN:VEVENT /tmp/online.ics || true) Termine"
+            [ "$code" = "200" ] || { echo "::warning::$base/$f nicht erreichbar (noch nicht veroeffentlicht oder GitHub Pages aus?)"; ok=1; }
+          done
+          exit $ok
+      - name: Fehler sichtbar machen
+        if: steps.build.outputs.rc != '0'
+        run: |
+          echo "::error::Ein Abruf ist fehlgeschlagen (Details in den Schritten oben). Die bisherigen Kalender bleiben erhalten."
+          exit 1

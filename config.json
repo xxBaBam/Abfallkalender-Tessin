@@ -1,0 +1,20 @@
+{
+  "erinnerung_uhrzeit": "18:00",
+  "kalender": [
+    {
+      "id": "tessin",
+      "quelle": "landkreis_rostock",
+      "ordner": ".",
+      "titel": "Abfallkalender Tessin",
+      "kalendername": "Abfall Tessin",
+      "beschreibung": "Alle Abfuhrtermine für Tessin (bei Sanitz) direkt im Handy-Kalender: schwarze Tonne (alle 4 Wochen), gelbe Tonne (alle 2 Wochen) und blaue Tonne (alle 4 Wochen).",
+      "ort": "Tessin",
+      "schwarz": "4w",
+      "schwarz_saison": false,
+      "gruen": "",
+      "gruen_saison": false,
+      "gelb": true,
+      "blau": true
+    }
+  ]
+}
