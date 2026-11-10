@@ -1,9 +1,9 @@
-Datum: 2026-11-08T13:11:50.769105
+Datum: 2026-11-10T17:31:41.640889
 
-=== main: https://www.abfall-lro.de/de/abfuhrtermine/ -> 200 text/html; charset=utf-8 (final https://www.abfall-lro.de/de/abfuhrtermine/), 96022 bytes
+=== main: https://www.abfall-lro.de/de/abfuhrtermine/ -> 200 text/html; charset=utf-8 (final https://www.abfall-lro.de/de/abfuhrtermine/), 96056 bytes
   FORM 0: {'id': 'frmSearch', 'method': 'get', 'action': '/de/search/'}
     {'tag': 'input', 'type': 'text', 'class': 'searchTerm', 'id': 'searchTermGlobal', 'placeholder': 'Suche', 'data-project-search': '/de', 'name': 'searchTerm', 'value': ''}
-    {'tag': 'input', 'type': 'hidden', 'name': 'wcsrf', 'value': 'PJvOazPRJLtOaRfzcUVTPiwyjiOUgrexHkndsoLLYBNpcEy69ZFrbjeCtuPexCjXXUJRtsLLlzbJfvxtbnEvDQutlDBJmqEA17'}
+    {'tag': 'input', 'type': 'hidden', 'name': 'wcsrf', 'value': 'apIFGDHXRwHannRtbFqKQTXstUeuxFtsOKescHJJVPJzEdzjedI31ZhtIlutxudaoogWYBoKCcAmHSxCDDObCTUYJJvlGBefSXtOyponVzRAKCFeSrymdvpYaHoKNHiXlz74'}
   FORM 1: {'action': '/default-wGlobal/wGlobal/abfuhrtermine/ical.php'}
     {'tag': 'input', 'name': 'letters', 'type': 'hidden'}
     {'tag': 'input', 'name': 'year', 'type': 'hidden'}
@@ -37,9 +37,9 @@ PDF 2027 G_G_Q_G: 404 text/html; charset=UTF-8 18 bytes
 PDF 2027 Q_P_C_C_RW_BW: 404 text/html; charset=UTF-8 18 bytes
 ICAL 4w 2026 G_G_Q_G: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2026&green=&yellow=y&blue=y&black=4w
 ICAL 4w+erinnerung 2026 G_G_Q_G: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2026&green=&yellow=y&blue=y&black=4w&reminder=18
-ICAL 4w 2027 G_G_Q_G: 200 text/html; charset=UTF-8 20 bytes, 0 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2027&green=&yellow=y&blue=y&black=4w
-ICAL 4w+erinnerung 2027 G_G_Q_G: 200 text/html; charset=UTF-8 20 bytes, 0 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2027&green=&yellow=y&blue=y&black=4w&reminder=18
+ICAL 4w 2027 G_G_Q_G: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2027&green=&yellow=y&blue=y&black=4w
+ICAL 4w+erinnerung 2027 G_G_Q_G: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=G_G_Q_G&year=2027&green=&yellow=y&blue=y&black=4w&reminder=18
 ICAL 4w 2026 Q_P_C_C_RW_BW: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2026&green=&yellow=y&blue=y&black=4w
 ICAL 4w+erinnerung 2026 Q_P_C_C_RW_BW: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2026&green=&yellow=y&blue=y&black=4w&reminder=18
-ICAL 4w 2027 Q_P_C_C_RW_BW: 200 text/html; charset=UTF-8 20 bytes, 0 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2027&green=&yellow=y&blue=y&black=4w
-ICAL 4w+erinnerung 2027 Q_P_C_C_RW_BW: 200 text/html; charset=UTF-8 20 bytes, 0 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2027&green=&yellow=y&blue=y&black=4w&reminder=18
+ICAL 4w 2027 Q_P_C_C_RW_BW: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2027&green=&yellow=y&blue=y&black=4w
+ICAL 4w+erinnerung 2027 Q_P_C_C_RW_BW: 200 text/calendar; charset=utf-8 9412 bytes, 52 Events -> https://www.abfall-lro.de/default-wGlobal/wGlobal/abfuhrtermine/ical.php?letters=Q_P_C_C_RW_BW&year=2027&green=&yellow=y&blue=y&black=4w&reminder=18
